@@ -6,9 +6,9 @@
 
     --font-family: 'Roboto Serif', serif;
     
-
-    --text-color: #0c0c0c;
-    --header-footer-backgroung-color:#e2e2e2ff;
+    --back-ground-color: #0a2463ff;
+    --link-color:#fb3640ff;
+    --header-footer-background-color:#605f5eff;
     --border-radius: 5px;
     
     --image-border: 2px solid
@@ -66,10 +66,15 @@ header {
     margin: 1rem auto
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
 nav {
     display: flex;
     align-items: right;
-    justify-content: space-evenly;
+    justify-content: center;
     gap: 10px;
 }
 
@@ -82,7 +87,3 @@ section {
     margin: 20px;
 }
 
-.socaillinks a img {
-    width: 40px;
-    margin: 0 5px;
-}
