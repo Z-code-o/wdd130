@@ -1,0 +1,60 @@
+:root {
+    --primary-color: #0a2463ff;
+    --secondary-color: #fb3640ff;
+    --tertiary-color: #605f5eff;
+    --text-color: #0c0c0c;
+    --background-color: #247BA0; 
+    --header-footer-backgroung-color:#e2e2e2ff;
+    --border-radius: 5px;
+    --font-family: 'Roboto Serif', serif;
+    --image-border: 2px solid
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: var(--header-footer-background-color);
+    padding: 20px;
+    text-align: center;
+}
+
+nav u1 li {
+    display: inline-block;
+    margin-right: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--primary-color)
+}
+
+.herodiv img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.hi {
+    position: absolute;
+}
+ 
+article img {
+    position: absolute;
+    float: right;
+    border: var(--image-border);
+    background-color: var(--background-color);
+    margin: 0 5px;
+}
+
+section {
+    margin: 20px;
+}
+
+.socaillinks a img {
+    width: 40px;
+    margin: 0 5px;
+}
