@@ -12,14 +12,18 @@
     --image-border: 2px solid
 }
 
-font-face {
-    font-family : 'Roboto Serif';
-    font-style : italic;
-    font-weight : 100;
-    font-stretch : normal;
-    font-display : swap;
-    src : url(https://fonts.gstatic.com/s/robotoserif/v15/R71XjywflP6FLr3gZx7K8UyEVQnyR1E7VN-f51xYuGCQepOvB0KLc2v0wMKB0Q4MSZxyqf2CgAchbDJ69BcVZxkDg-JuT-V8BQ.ttf) format('truetype');
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
 }
+  
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
 
 h1 {
     color: black;
