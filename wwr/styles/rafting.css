@@ -4,14 +4,21 @@
     --accent1-color: #605f5eff;
     --accent2-color: #247BA0; 
 
-    --font-family: 'Roboto Serif', serif;
-    
-    --back-ground-color: #0a2463ff;
+    --background-color: #0a2463ff;
     --link-color:#fb3640ff;
     --header-footer-background-color:#605f5eff;
     --border-radius: 5px;
     
     --image-border: 2px solid
+}
+
+font-face {
+    font-family : 'Roboto Serif';
+    font-style : italic;
+    font-weight : 100;
+    font-stretch : normal;
+    font-display : swap;
+    src : url(https://fonts.gstatic.com/s/robotoserif/v15/R71XjywflP6FLr3gZx7K8UyEVQnyR1E7VN-f51xYuGCQepOvB0KLc2v0wMKB0Q4MSZxyqf2CgAchbDJ69BcVZxkDg-JuT-V8BQ.ttf) format('truetype');
 }
 
 h1 {
@@ -72,14 +79,5 @@ nav {
     align-items: right;
     justify-content: center;
     gap: 10px;
-}
-
-.history {
-    display: flex;
-    align-items: center;
-}
-
-section {
-    margin: 20px;
 }
 
