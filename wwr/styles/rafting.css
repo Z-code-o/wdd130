@@ -66,11 +66,7 @@ header {
     margin: 1rem auto
 }
 
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 20px;
-}
+
 nav {
     display: flex;
     align-items: right;
