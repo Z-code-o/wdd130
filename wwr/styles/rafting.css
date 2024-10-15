@@ -21,17 +21,65 @@
     font-weight: 400;
 }
 
+header {
+    display: grid;
+    grid-template-columns: 200px auto;
+    align-items: center;
+    background-color: var(--secondary-color);
+    padding: 10px 20px;
+    margin: 1rem auto;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    gap: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 400;
+}
+
+nav a:hover {
+    color: var(--link-color);
+}
+
+li {
+    list-style: none;
+}
+
+
 h1 {
     color: black;
 }
 article p {
-    color: white;
+    color: #333;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
 }
 
-a.sociallinks {
+.adventure-image {
+    width: 100%;
+    max-width: 600px;
+    border: 2px solid var(--accent2-color);
+    margin: 20px 0 ;
+}
+
+a {
     text-decoration: none;
     color: var(--primary-color);
 }
+
+body {
+    width: 100%;
+    margin: 0;
+}
+
 .herodiv {
     width: 100%;
     margin: 30px 0;
@@ -41,11 +89,6 @@ a.sociallinks {
     display: block;
     width: 100%;
     height: auto;
-}
-
-body {
-    width: 100%;
-    margin: 0;
 }
 
 h1 {
@@ -59,11 +102,19 @@ h1 {
 .herodiv article {
     position: absolute;
     bottom: 50px;
-    width: 100%;
+    left: 10%;
+    width: 80%;
     height: auto;
     text-align: center;
+    padding: 20%;
     border: var(--image-border);
     background-color: var(--header-footer-background-color);
+    color: white;
+}
+
+.herodiv h1 {
+    color: white;
+    font-size: 2rem;
 }
 
 .herodiv article img {
@@ -72,26 +123,14 @@ h1 {
 
 }
 
-header {
-    display: grid;
-    grid-template-columns: 200px auto;
-    align-items: center;
-    background-color: var(--secondary-color);
-    padding: 10px 20px;
-    margin: 1rem auto;
-}
-
-
-nav{
+footer {
     display: flex;
-    justify-content: space-around;
-    text-decoration: none;
-    gap: 10px;
+    justify-content: center;
+    background-color: var(--header-footer-background-color);
+    padding: 10px;
 }
 
-li {
-    list-style: none;
+.sociallinks {
+    margin: 0 10px;
+    font-size: 1.5rem;
 }
-
-
-
