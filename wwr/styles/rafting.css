@@ -8,10 +8,19 @@
     --link-color:#fb3640ff;
     --header-footer-background-color:#605f5eff;
     --border-radius: 5px;
-    
     --image-border: 2px solid;
 }
   
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
 h1 {
     color: black;
 }
@@ -19,7 +28,7 @@ article p {
     color: white;
 }
 
-a {
+a.sociallinks {
     text-decoration: none;
     color: var(--primary-color);
 }
@@ -47,18 +56,21 @@ h1 {
     background-color: transparent;
 }
  
-.article {
+.herodiv article {
     position: absolute;
     bottom: 50px;
-    width: 100px;
+    width: 80%;
     text-align: center;
     border: var(--image-border);
     background-color: var(--header-footer-background-color);
+    opacity: 0.8;
+    padding: 10px;
 }
 
 .herodiv article img {
     float: right;
     width: 100px;
+
 }
 
 header {
@@ -81,5 +93,6 @@ nav{
 li {
     list-style: none;
 }
+
 
 
