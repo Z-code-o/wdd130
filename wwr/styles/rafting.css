@@ -24,7 +24,8 @@ a {
     color: var(--primary-color);
 }
 .herodiv {
-    margin: 30px;
+    width: 100%;
+    margin: 30px 0;
     position: relative;
 }
 .herodiv img {
@@ -34,15 +35,15 @@ a {
 }
 
 body {
-    width: 800px;
+    width: 100%;
+    margin: 0;
 }
 
 h1 {
     position: absolute;
     left: 100px;
-    top: 50px;
+    top: 10px;
     width: 500px;
-    margin: 20px;
     background-color: transparent;
     border: 1px solid black;
 }
@@ -50,21 +51,21 @@ h1 {
 article {
     position: absolute;
     bottom: 50px;
-    right: 100px;
     width: 100px;
-    padding: 5px;
+    text-align: center;
     border: var(--image-border);
     background-color: var(--header-footer-background-color);
 }
 
-.hero article img {
+.herodiv article img {
     float: right;
     width: 100px;
 }
 
-header {
+header,footer {
     display: grid;
     grid-template-columns: 200px auto;
+    align-items: center;
     background-color: var(--secondary-color);
     padding: 10px 20px;
     margin: 1rem auto;
@@ -81,6 +82,4 @@ li {
     list-style: none;
 }
 
-footer {
-    position: left;
-}
+
