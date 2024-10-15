@@ -35,20 +35,25 @@ a {
     text-decoration: none;
     color: var(--primary-color)
 }
-.hero {
-    max-width: 800px;
+.herodiv {
     margin: 30px;
     position: relative;
 }
-.hero img {
+.herodiv img {
     display: block;
     width: 100%;
     height: auto;
 }
+
+body {
+    width: 800px;
+}
+
 h1 {
     position: absolute;
-    bottom: 150px;
-    left: 200px;
+    bottom: 100px;
+    left: 50px;
+    top: 200px;
     width: 500px;
     margin: 20px;
     background-color: cadetblue;
@@ -72,16 +77,23 @@ article {
 
 header {
     display: grid;
+    grid-template-columns: 200px auto;
     background-color: var(--secondary-color)
     padding 10px 20px;
     margin: 1rem auto
 }
 
 
-nav {
+ul {
     display: flex;
-    align-items: right;
     justify-content: center;
     gap: 10px;
 }
 
+li {
+     list-style: none;
+}
+
+footer {
+    position: left;
+}
