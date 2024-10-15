@@ -41,14 +41,13 @@ body {
 
 h1 {
     position: absolute;
-    left: 100px;
     top: 10px;
-    width: 500px;
+    text-align: center;
+    width: 100%;
     background-color: transparent;
-    border: 1px solid black;
 }
  
-article {
+.article {
     position: absolute;
     bottom: 50px;
     width: 100px;
@@ -62,7 +61,7 @@ article {
     width: 100px;
 }
 
-header,footer {
+header {
     display: grid;
     grid-template-columns: 200px auto;
     align-items: center;
@@ -72,9 +71,10 @@ header,footer {
 }
 
 
-ul {
+nav{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    text-decoration: none;
     gap: 10px;
 }
 
