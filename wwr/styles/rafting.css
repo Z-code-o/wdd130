@@ -9,7 +9,7 @@
     --header-footer-background-color:#605f5eff;
     --border-radius: 5px;
     
-    --image-border: 2px solid
+    --image-border: 2px solid;
 }
   
 h1 {
@@ -21,7 +21,7 @@ article p {
 
 a {
     text-decoration: none;
-    color: var(--primary-color)
+    color: var(--primary-color);
 }
 .herodiv {
     margin: 30px;
@@ -44,7 +44,7 @@ h1 {
     width: 500px;
     margin: 20px;
     background-color: cadetblue;
-    border: 5px solid black
+    border: 5px solid black;
 }
  
 article {
@@ -65,9 +65,9 @@ article {
 header {
     display: grid;
     grid-template-columns: 200px auto;
-    background-color: var(--secondary-color)
-    padding 10px 20px;
-    margin: 1rem auto
+    background-color: var(--secondary-color);
+    padding: 10px 20px;
+    margin: 1rem auto;
 }
 
 
