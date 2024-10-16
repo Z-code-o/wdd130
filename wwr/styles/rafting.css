@@ -58,7 +58,7 @@ h1 {
     color: black;
 }
 article p {
-    color: #333;
+    color: white;
     font-size: 1rem;
     margin-bottom: 1.5rem;
 }
@@ -103,8 +103,8 @@ h1 {
     position: absolute;
     bottom: 50px;
     left: 10%;
-    width: 80%;
-    height: auto;
+    width: 50%;
+    height: 20px;
     text-align: center;
     padding: 20%;
     border: var(--image-border);
