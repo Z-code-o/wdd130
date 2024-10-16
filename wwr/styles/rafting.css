@@ -32,19 +32,14 @@ nav {
     display: flex;
     padding: 0.5rem;
     margin: -0.14rem;
-    color: ;
-    text-decoration: none;
-}
-
-nav {
-    display: flex;
-    text-decoration: none;
     justify-content: space-around;
+    text-decoration: none;
+    gap: 10px;
 }
 
 nav a:hover{
     background-color: white;
-    color: black;
+    color: var(--link-color);
 
 }
 
@@ -57,23 +52,28 @@ h1 {
 }
 
 h1 {
-
-}
-
-.adventure-image {
-
+    position: absolute;
+    top: 10px;
+    text-align: center;
+    width: 100%;
+    background-color: transparent;
 }
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 body {
-
+    width: 100%;
+    margin: 0;
 }
 
 .herodiv {
     position: relative;
+    width: 100%;
+    height: auto;
+    margin: 30px 0;
 }
 
 .herodiv img {
@@ -84,6 +84,10 @@ body {
 
 .herodiv article {
     position: absolute;
+    top: 6rem;
+    left: 6rem;
+    right: 6rem;
+
 }
 
 .herodiv h1 {
@@ -91,11 +95,17 @@ body {
 }
 
 .herodiv article img {
-    position: absolute;
+    float: right;
+    margin: 2rem;
+    width: 15rem;
 }
 
 article p {
     float: right;
+    color: black;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
 }
 
 footer {
@@ -108,7 +118,7 @@ footer {
 }
 
 footer {
-    color: white;
+    color: black;
 }
 
 .sociallinks a {
