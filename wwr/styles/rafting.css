@@ -13,11 +13,13 @@
     .roboto-thin {
         font-family: "Roboto", sans-serif;
         font-weight: 100;
+        font-style: normal;
     }
 
-    .robto-regular {
+    .roboto-regular {
         font-family: "Roboto", sans-serif;
         font-weight: 400;
+        font-style: normal;
     }
 }
 
@@ -101,7 +103,6 @@ body {
 }
 
 article p {
-    float: right;
     color: black;
     font-size: 1rem;
     margin-bottom: 1.5rem;
