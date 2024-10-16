@@ -57,6 +57,15 @@ li {
 h1 {
     color: black;
 }
+
+h1 {
+    position: absolute;
+    top: 10px;
+    text-align: center;
+    width: 100%;
+    background-color: transparent;
+}
+
 article p {
     color: white;
     font-size: 1rem;
@@ -89,14 +98,6 @@ body {
     display: block;
     width: 100%;
     height: auto;
-}
-
-h1 {
-    position: absolute;
-    top: 10px;
-    text-align: center;
-    width: 100%;
-    background-color: transparent;
 }
  
 .herodiv article {
