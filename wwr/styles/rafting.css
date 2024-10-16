@@ -1,0 +1,92 @@
+:root {
+    --primary-color: #0a2463ff;
+    --secondary-color: #fb3640ff;
+    --accent1-color: #605f5eff;
+    --accent2-color: #247ba0;
+
+    --background-color: #0a2463ff;
+    --link-color: #fb3640ff;
+    --header-footer-background-color: #605f5eff;
+    --border-radius: 5px;
+    --image-border: 2px solid;
+
+    .roboto-thin {
+        font-family: "Roboto", sans-serif;
+        font-weight: 100;
+    }
+
+    .robto-regular {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+    }
+}
+
+header {
+    display: grid;
+    grid-template-columns: ;
+}
+
+nav {
+}
+
+nav a:hover{
+
+}
+
+li {
+    list-style: none;
+}
+
+h1 {
+    color: black;
+}
+
+h1 {
+
+}
+
+.adventure-image {
+
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+
+}
+
+.herodiv {
+    position: relative;
+}
+
+.herodiv img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.herodiv article {
+    position: absolute;
+}
+
+.herodiv h1 {
+    position: absolute;
+}
+
+.herodiv article img {
+    position: absolute;
+}
+
+article p {
+    float: right;
+}
+
+footer {
+
+}
+
+.sociallinks {
+
+}
